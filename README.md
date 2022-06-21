@@ -3,6 +3,7 @@
 Challenge is the following:
 
 1.  Modify the Account class so that it is now an Abstract class by adding the following pure virtual functions:
+
         virtual bool deposit(double amount) = 0;
         virtual bool withdraw(double amount) = 0;
 
